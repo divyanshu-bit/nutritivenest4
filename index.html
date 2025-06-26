@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutritive Nest - Personalized Diet Plans & Wellness</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <!-- <img src="#" alt="Nutritive Nest Logo" class="logo-img"> -->
+                    <a href="#" class="logo-text" id="logoLink"> THE NUTRITIVE NEST</a>
+                </div>
+                
+                <nav class="nav desktop-nav">
+                    <a href="#services" class="nav-link">Services</a>
+                    <a href="#product" class="nav-link">Our Tea</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#testimonials" class="nav-link">Reviews</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </nav>
+
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars" id="menuIcon"></i>
+                </button>
+            </div>
+
+            <div class="mobile-nav" id="mobileNav">
+                <nav class="mobile-nav-links">
+                    <a href="#services" class="nav-link">Services</a>
+                    <a href="#product" class="nav-link">Our Tea</a>
+                    <a href="#about" class="nav-link">About</a>
+                    <a href="#testimonials" class="nav-link">Reviews</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                    <button class="btn btn-primary">Get Started</button>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Banner Section with Auto Slide -->
+    <section class="banner-slider">
+        <div class="slides">
+            <div class="slide active">
+                <img src="img/1.png" alt="Banner Image 1">
+                <div class="banner-overlay">
+                    <h2 class="banner-title">Welcome to Nutritive Nest</h2>
+                    <p class="banner-subtitle">Personalized Diet Plans & Wellness</p>
+                    <button class="btn btn-primary banner-cta">Get Started</button>
+                </div>
+            </div>
+            <div class="slide">
+                <img src="img/2.png" alt="Banner Image 2">
+                <div class="banner-overlay">
+                    <h2 class="banner-title">Transform Your Health</h2>
+                    <p class="banner-subtitle">Join Thousands of Happy Clients</p>
+                    <button class="btn btn-primary banner-cta">Learn More</button>
+                </div>
+            </div>
+        </div>
+        <button class="banner-prev" aria-label="Previous banner slide">&#10094;</button>
+        <button class="banner-next" aria-label="Next banner slide">&#10095;</button>
+    </section>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <video autoplay muted loop playsinline class="hero-video">
+            <source src="https://cdn.videvo.net/videvo_files/video/free/2019-07/small_watermarked/190705_01_Drone_4k_001_preview.webm" type="video/webm">
+            Your browser does not support the video tag.
+        </video>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="hero-badge">
+                        🌱 Coming Soon: Revolutionary Slimming Camellia Tea
+                    </div>
+                    <h1 class="hero-title">
+                        <span id="auto-typing"></span>
+                    </h1>
+                    <p class="hero-description">
+                        Discover the power of customized nutrition tailored specifically for your body, lifestyle, and goals. Join thousands who've transformed their lives with our science-backed approach.
+                    </p>
+                    
+                    <div class="hero-buttons">
+                        <button class="btn btn-primary btn-large">
+                            <span>Start Your Journey</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </button>
+                        <a href="https://wa.me/919991055527" target="_blank" class="whatsapp-btn">
+  <i class="fab fa-whatsapp"></i>
+  <span>Message on WhatsApp</span>
+</a>
+                    </div>
+
+                    <div class="hero-stats">
+                        <div class="stat-item">
+                            <div class="stat-dot"></div>
+                            <span>1000+ Success Stories</span>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-dot"></div>
+                            <span>Science-Backed Results</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <div class="image-container">
+                        <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Healthy lifestyle">
+                    </div>
+                    <div class="success-card">
+                        <div class="success-icon">95%</div>
+                        <div class="success-text">
+                            <p class="success-title">Success Rate</p>
+                            <p class="success-subtitle">Client Satisfaction</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Your Path to Wellness</h2>
+                <p class="section-description">
+                    Our comprehensive approach combines cutting-edge nutrition science with personalized care to deliver results that last.
+                </p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3 class="service-title">Personalized Assessment</h3>
+                    <p class="service-description">Comprehensive health and lifestyle analysis to create your unique nutritional profile.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3 class="service-title">Custom Meal Plans</h3>
+                    <p class="service-description">Tailored weekly meal plans designed specifically for your goals, preferences, and dietary restrictions.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="service-title">Progress Tracking</h3>
+                    <p class="service-description">Real-time monitoring of your health metrics and continuous plan optimization.</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="service-title">Expert Support</h3>
+                    <p class="service-description">24/7 access to certified nutritionists and wellness coaches for guidance and motivation.</p>
+                </div>
+            </div>
+
+            <div class="owner-section fade-in">
+                <div class="container owner-container">
+                    <div class="owner-image">
+                        <img src="img/WhatsApp Image 2025-06-26 at 12.53.50_586b3cea.jpg" alt="Owner Photo">
+                    </div>
+                    <div class="owner-description">
+                        <h3 class="owner-quote">"Eat Right, Live Bright"</h3>
+                        <h2 class="owner-name">Intelli Jain</h2>
+                        <p class="owner-bio">
+                            Struggling with food choices or health issues?<br>
+                            I’m here to create a personalized nutrition plan that fits your lifestyle — not the other way around.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="cta-banner fade-in">
+                <h3 class="cta-title">Ready to Transform Your Health?</h3>
+                <p class="cta-description">
+                    Join our personalized nutrition program and discover how the right diet plan can change your life forever.
+                </p>
+                <a href="https://www.instagram.com/the.nutritivenest?igsh=a243cTZhN2s4djk5" target="_blank" class="btn btn-primary instagram-link">
+                <i class="fab fa-instagram"></i>
+                <span>Message on Instagram for Consultation</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Showcase Section -->
+    <section id="product" class="product-showcase">
+        <div class="container">
+            <div class="product-content">
+                <div class="product-text">
+                    <div class="product-badge">🚀 Launching Soon</div>
+                    <h2 class="product-title">
+                        Introducing Slimming
+                        <span class="text-green">Camellia Tea</span>
+                    </h2>
+                    <p class="product-description">
+                        The perfect complement to your personalized diet plan. Our specially formulated slimming camellia tea combines ancient wisdom with modern science to accelerate your wellness journey.
+                    </p>
+
+                    <div class="benefits-grid">
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <i class="fas fa-bolt"></i>
+                            </div>
+                            <div class="benefit-text">
+                                <h4>Boosts Metabolism</h4>
+                                <p>Accelerates fat burning naturally</p>
+                            </div>
+                        </div>
+
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="benefit-text">
+                                <h4>Antioxidant Rich</h4>
+                                <p>Supports overall health and immunity</p>
+                            </div>
+                        </div>
+
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="benefit-text">
+                                <h4>All-Day Energy</h4>
+                                <p>Sustained energy without crashes</p>
+                            </div>
+                        </div>
+
+                        <div class="benefit-item">
+                            <div class="benefit-icon">
+                                <i class="fas fa-leaf"></i>
+                            </div>
+                            <div class="benefit-text">
+                                <h4>100% Natural</h4>
+                                <p>Premium organic ingredients only</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="pricing">
+                        
+                        
+                        <div class="product-buttons">
+                            <button class="btn btn-primary btn-large">Pre-Order Now - Limited Time</button>
+                            <a href="tel:+919991055527" class="btn btn-outline btn-large">Call +91-99910 55527</a>
+                        </div>
+                        <!-- <p class="guarantee">✓ 30-day money-back guarantee</p> -->
+                    </div>
+                </div>
+
+                <div class="product-image">
+                    <div class="product-card">
+                        <img src="img/Whaimage.jpg" alt="Slimming Camellia Tea by Nutritive Nest">
+                        <div class="safety-badge">100% Safe & Natural</div>
+                    </div>
+                    <div class="rating-card">
+                        <div class="rating">4.5★</div>
+                        <div class="rating-text">Pre-launch Rating</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="about-title">Science Meets Personalization</h2>
+                    <p class="about-description">
+                        Founded by certified nutritionists and wellness experts, NutriVital combines cutting-edge nutritional science with personalized care to create diet plans that actually work.
+                    </p>
+
+                    <div class="features-list">
+                        <div class="feature-item">
+                            <div class="feature-dot"></div>
+                            <div class="feature-content">
+                                <h4>Evidence-Based Approach</h4>
+                                <p>Every recommendation is backed by peer-reviewed research and clinical studies.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="feature-dot"></div>
+                            <div class="feature-content">
+                                <h4>Certified Experts</h4>
+                                <p>Our team consists of registered dietitians, nutritionists, and wellness coaches.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-item">
+                            <div class="feature-dot"></div>
+                            <div class="feature-content">
+                                <h4>Continuous Innovation</h4>
+                                <p>We constantly update our methods based on the latest nutritional research.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-image">
+                    <img src="https://images.pexels.com/photos/3768916/pexels-photo-3768916.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Nutrition experts">
+                </div>
+            </div>
+
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stat-number">1000+</div>
+                    <div class="stat-label">Happy Clients</div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <div class="stat-number">2</div>
+                    <div class="stat-label">Years Experience</div>
+                </div>
+
+                <div class="stat-card">
+                    <div class="stat-icon"> 
+                        <i class="fas fa-microscope"></i>
+                    </div>
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Research Studies</div>
+                </div>
+
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Our Clients Say</h2>
+                <p class="section-description">
+                    Real stories from people who transformed their health with our personalized approach.
+                </p>
+            </div>
+
+            <div class="testimonials-grid">
+                <button class="testimonial-prev" aria-label="Previous testimonial">&#10094;</button>
+                <button class="testimonial-next" aria-label="Next testimonial">&#10095;</button>
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        Thankew intelli...Little angle....Afte continously tyring so so many diets n dietician n Getting bored..First time I'm enjoying  diet...where my direction follows me n my diet...Thenkew for being such cute person n giv me diet according to my kitchen schedule..Tonns of love n smiles to u.
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Sarah Johnson">
+                        <div class="author-info">
+                            <div class="author-name">Vandana</div>
+                            <div class="author-role">Marketing Executive</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        i want to share my review regarding my wieght loss transformation.My starting weight was 86kg And today we completed 15 days.... I am 82.5KG.Which means I lost 3.5KGs in 15 days.I have taken lot of diet plans with you i am enjoying doing diet.. It's very flexible.....adjusting according to my routine,The best thing is you give me cheat meal according to me whenever i want.  
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Michael Chen">
+                        <div class="author-info">
+                            <div class="author-name">Sahil</div>
+                            <div class="author-role">Unkown</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="quote-icon">
+                        <i class="fas fa-quote-left"></i>
+                    </div>
+                    <p class="testimonial-text">
+                        Start wt. 93.6KG Current. 87.75 Intelli....I want you to thank u wholeheartedly...my wt was from more than 6mnths...n wasstruggling badly....Bt u made it possible so cool n calmly ... Thenkew girl Tonns of blessings Many many more kilos journey  wit u charming girl....I'm enjoying 
+                    </p>
+                    <div class="testimonial-author">
+                        <img src="https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=400" alt="Emma Rodriguez">
+                        <div class="author-info">
+                            <div class="author-name">Jyoti</div>
+                            <div class="author-role">Teacher</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="rating-summary">
+                <div class="rating-badge">
+                    <i class="fas fa-star"></i>
+                    <span class="rating-text">4.5/5 Average Rating</span>
+                    <span class="separator">•</span>
+                    <span class="review-count">1000+ Reviews</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Ready to Start Your Journey?</h2>
+                <p class="section-description">
+                    Get in touch with our nutrition experts and take the first step towards a healthier you.
+                </p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Email Us</h4>
+                            <p>hello@nutritivenest.com</p>
+                            <p>support@nutritivenest.com</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Call Us</h4>
+                            <p>+91-99910 55527</p>
+                            <p class="contact-hours">Mon-Fri 9AM-6PM IST</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h4>Visit Us</h4>
+                            <p>123 Wellness Street</p>
+                            <p>Health City, India</p>
+                        </div>
+                    </div>
+
+                    <div class="consultation-card">
+                        <h4>Free Consultation Available</h4>
+                        <p>Book a complimentary 30-minute consultation with one of our certified nutritionists to discuss your health goals and create a personalized plan.</p>
+                        <a href="tel:+919991055527" class="btn btn-primary">Schedule Free Call</a>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Enter your full name">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required placeholder="Enter your email address">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" required rows="5" placeholder="Tell us about your health goals..."></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="img/Whaimage.jpg" alt="Nutritive Nest Logo" class="footer-logo-img">
+                        <span class="footer-logo-text">Nutritive Nest</span>
+                    </div>
+                    <p class="footer-description">
+                        Transforming lives through personalized nutrition and wellness solutions backed by science.
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4 class="footer-title">Services</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Personalized Diet Plans</a></li>
+                        <li><a href="#">Nutrition Consultation</a></li>
+                        <li><a href="#">Progress Tracking</a></li>
+                        <li><a href="#">Wellness Coaching</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4 class="footer-title">Products</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Slimming Camellia Tea</a></li>
+                        <li><a href="#">Meal Plans</a></li>
+                        <li><a href="#">Supplements</a></li>
+                        <li><a href="#">Recipe Books</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4 class="footer-title">Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Our Team</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="copyright">© 2025 Nutritive Nest. All rights reserved.</p>
+                <div class="footer-bottom-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                    <a href="#">Cookie Policy</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
